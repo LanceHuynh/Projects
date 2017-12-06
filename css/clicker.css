@@ -1,0 +1,9 @@
+body {text-align: center}
+
+.wrapper { display: flex }
+.cat { width : 50%;
+						height : 50% }
+.images_container_1_2 {width : 50%;
+					   height: 50%;}
+#number_of_clicks {margin-top: 50px}
+

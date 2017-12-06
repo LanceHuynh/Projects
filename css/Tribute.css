@@ -1,0 +1,20 @@
+.jumbotron {margin-top: 50px;
+}
+#main-image {background-color: white;
+				padding: 5px 5px 5px 5px;
+				border-radius: 5px; }
+.jumbotron p {font-size: 1em;
+              margin-bottom: 15px; }
+#main-image img { width:100%;
+				}
+.timeline       {   width: 65%;
+                    margin: 10px auto;
+                    text-align: left;
+				}
+.timeline p { margin-left: 5%; }
+.quote { 
+	    color: grey;
+		font-size: 1em; }
+.reference { position: relative;
+             right : 5%;
+             font-size: 20px; }

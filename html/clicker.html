@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/clicker.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<title>Animal Clicker!!</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="images_container_1_2">
+				<h3 class = "images_title"></h3>
+				<img class="cat"  src="../asset/images.jpg" alt="animal picture!">
+			</div>
+			<div class="images_container_1_2">
+				<h3 class="images_title"></h3>
+				<img class="cat"  src="../asset/images2.jpg" alt="animal picture!">
+			</div>
+		</div>	
+		<div id="number_of_clicks"> Time clicked: </div>
+		<script type="text/javascript">
+			var ele = $("img");
+			var i = 0;
+			var titles = $(".images_title");
+			var name = "cat's name";
+			titles.text(name);
+			$("#number_of_clicks").text("Time clicked: " + i);
+		    ele.on("click", function() 
+		    	{ i += 1;
+		    	  $("#number_of_clicks").text("Time clicked: " + i);
+		    	  console.log(i);
+		    	});
+
+		    
+		    
+		</script>
+	</body>
+</html>
